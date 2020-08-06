@@ -1,0 +1,22 @@
+{
+  "name": "cs725-exercises",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --watch",
+    "start": "tsc src/index.ts && node src/index.js"
+  },
+  "author": "Nadeem Jamali",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
